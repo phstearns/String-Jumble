@@ -28,4 +28,4 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 ost = str(input("Please enter a string of text (the bigger the better): "))
 print("")
 print("You entered: " + ost + ". Now Jumble it: ")
-l = list(str(ost))
+l = list(ost)
