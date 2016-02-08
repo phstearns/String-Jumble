@@ -32,5 +32,5 @@ l = list(ost)
 
 z=0
 while z<len(l):
-    print(l[len(l)-z], end="")
+    print(str(l[len(l)-z]), end="")
     z=z+1
