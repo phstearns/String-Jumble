@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Payton Stearns
-Credit: Avery 
+Credit: Avery, Ethan
 
 Assignment:
 
@@ -29,3 +29,7 @@ ost = str(input("Please enter a string of text (the bigger the better): "))
 print("")
 print("You entered: '" + ost + "'. Now Jumble it: ")
 l = list(ost)
+
+z=0
+while z<len(l):
+    print(l[len(l)-z], end="")
