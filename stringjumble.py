@@ -39,3 +39,5 @@ while z>len(l):
     print(str(l[len(l)-z+1], end="")
     z=z+2
 """
+a = mylist.sort
+print(a)
