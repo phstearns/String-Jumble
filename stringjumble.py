@@ -35,11 +35,13 @@ def split_line(text):
     for word in words:
         print(words)
 """
-splitost = sent.split(' ')
-print(splitost)
+ost.split(",")
+1,2,3 = ost.split(",")
 z=0
 while z<len(l):
     print(str(l[len(l)-z-1]), end="")
     z=z+1
 
-print(k)
+print(1)
+print(2)
+print(3)
