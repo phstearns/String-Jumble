@@ -36,7 +36,7 @@ while z<len(l):
     print(str(l[len(l)-z-1]), end="")
     z=z+1
 print()
-f = list(reversed(sost))
+f = str(reversed(sost))
 print(f)
 print()
 
