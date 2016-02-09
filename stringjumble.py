@@ -29,10 +29,17 @@ ost = str(input("Please enter a string of text (the bigger the better): "))
 print("")
 print("You entered: '" + ost + "'. Now Jumble it: ")
 l = list(ost)
-k = text.split()
-
+"""
+def split_line(text):
+    words = text.split()
+    for word in words:
+        print(words)
+"""
+splitost = sent.split(' ')
+print(splitost)
 z=0
 while z<len(l):
     print(str(l[len(l)-z-1]), end="")
     z=z+1
 
+print(k)
