@@ -37,6 +37,6 @@ while z<len(l):
     z=z+1
 print()
 f = str(reversed(sost))
-print(f)
+print(list(f))
 print()
 
