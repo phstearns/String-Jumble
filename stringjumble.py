@@ -39,4 +39,6 @@ print()
 f = list(reversed(sost))
 print(f)
 print()
+q = list(reversed(f))
+print(q)
 
