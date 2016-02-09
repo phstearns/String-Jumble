@@ -41,5 +41,5 @@ f = list(reversed(sost))
 print(str(f))
 print()
 """
-q = list.reverse(l)
-print(q)
+list.reverse(l)
+print(l)
