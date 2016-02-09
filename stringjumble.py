@@ -36,8 +36,8 @@ while z<len(l):
     z=z+1
     
     
-l.append(10)
-print(l.append)
+s=l.append(10)
+print(s)
 
 y=0
 while y>len(l):
