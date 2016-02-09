@@ -36,5 +36,5 @@ while z<len(l):
     z=z+1
 
 for y in range(1, l-1) :
-    print(ost[-y], end="")
+    print(ost[y], end="")
 print()
