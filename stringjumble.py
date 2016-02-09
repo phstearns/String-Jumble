@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: Payton Stearns
-Credit: Avery, Ethan
+Credit: Avery, Ethan, Daniel
 
 Assignment:
 
@@ -40,6 +40,5 @@ print()
 f = list(reversed(sost))
 print(f)
 print("")
-q = list(reversed(f))
+q = str(reversed(f))
 print(q)
-
