@@ -35,8 +35,8 @@ def split_line(text):
     for word in words:
         print(words)
 """
-ost.split(",")
-1,2,3 = ost.split(",")
+l.split(",")
+1,2,3 = l.split(",")
 z=0
 while z<len(l):
     print(str(l[len(l)-z-1]), end="")
