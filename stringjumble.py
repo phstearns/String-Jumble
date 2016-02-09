@@ -35,6 +35,7 @@ while z<len(l):
     print(str(l[len(l)-z-1]), end="")
     z=z+1
 
-while z>len(l):
-    print(str(l[len(l)-z+1]), end="")
-    z=z-1
+y=0
+while y>len(l):
+    print(str(l[len(l)-y+1]), end="")
+    y=y-1
