@@ -42,6 +42,9 @@ for word in f:
     print(word, end=" ")
 print("")
 print()
-print(sost)
+
 for word in sost:
-    print(word, "", end="")
+    z=0
+    while z<len(word):
+        print(str(word[len(word)-z-1]), end="")
+        z=z+1
