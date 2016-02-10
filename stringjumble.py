@@ -42,5 +42,6 @@ print("")
 for word in f:
     print(word, "", end="")
 print("")
+print()
 for word in sost:
     print(word, "", end="")
