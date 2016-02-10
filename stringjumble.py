@@ -41,4 +41,6 @@ f = list(reversed(sost))
 print("")
 for word in f:
     print(word, "", end="")
-print(sost)
+print("")
+for word in sost:
+    print(word, "", end="")
