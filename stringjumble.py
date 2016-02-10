@@ -44,7 +44,7 @@ print("")
 print()
 
 for word in sost:
-    z=0
-    while z<len(word):
-        print(str(word[len(word)-z-1]), '' ,end="")
-        z=z+1
+    q=0
+    while q<len(word):
+        print(str(word[len(word)-q-1]), '' ,end="")
+        q=q+1
