@@ -46,6 +46,6 @@ print()
 for word in sost:
     q=0
     while q<len(word):
-        r = (str(word[len(word)-q-1]))
+        r = list((str(word[len(word)-q-1])))
         print(r, end=" ")
         q=q+1
