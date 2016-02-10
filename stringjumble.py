@@ -38,11 +38,7 @@ while z<len(l):
 print("")
 print()
 f = list(reversed(sost))
-print(f)
 print("")
 for word in f:
-    print(word)
-"""
-q = list(shuffled(sost))
-print(q)
-"""
+    print(word, "", end="")
+print(sost)
