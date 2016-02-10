@@ -38,10 +38,10 @@ while z<len(l):
 print("")
 print()
 f = list(reversed(sost))
-print("")
 for word in f:
-    print(word, "", end="")
+    print(word, end=" ")
 print("")
 print()
+print(sost)
 for word in sost:
     print(word, "", end="")
