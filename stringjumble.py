@@ -48,3 +48,4 @@ for word in sost:
         r = (str(word[len(word)-q-1]))
         print("{0}".format(r), end="")
         q=q+1
+    print("")
