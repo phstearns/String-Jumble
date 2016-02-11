@@ -46,5 +46,5 @@ for word in sost:
     q=0
     while q<len(word):
         r = (str(word[len(word)-q-1]))
-        print("{0: <3}".format(r), end="")
+        print("{0}".format(r), end="")
         q=q+1
