@@ -34,6 +34,7 @@ z=0
 while z<len(l):
     print(str(l[len(l)-z-1]), end="")
     z=z+1
+print("")
 f = list(reversed(sost))
 for word in f:
     print(word, end=" ")
